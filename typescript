@@ -1,0 +1,72 @@
+Script started on Sat 08 Jun 2013 11:24:00 PM CDT
+]0;ka-son@kason-Lenovo-IdeaPad-S300: ~/Documents/C++/QuestionTreeka-son@kason-Lenovo-IdeaPad-S300:~/Documents/C++/QuestionTree$ make QT
+g++    -c -o QuestionsTree.o QuestionsTree.cpp
+g++ QuestionsTree.o TreeTester.cpp -o QT
+rm -f *.o
+]0;ka-son@kason-Lenovo-IdeaPad-S300: ~/Documents/C++/QuestionTreeka-son@kason-Lenovo-IdeaPad-S300:~/Documents/C++/QuestionTree$ ./Qt[KT
+Is the Question tree empty? true
+
+Instructions: 
+1.	Think of a thing (a noun of some kind).
+2.	Then the game will try to guess what you are thinking.
+	If the program cannot guess what you are thinking, it will ask you
+	to enter the correct answer followed by a question to tell apart
+	the last guessed animal and your animal.
+3.	You can play again or exit.
+
+Think of a noun...
+Is it an animal? Please answer
+yes
+My guess is a bear
+Am i right?
+no
+I give up. What is it?
+a eagle
+What can I ask to tell a eagle from a bear?
+Can it fly?
+Is that answer to that question yes or no for a bear?
+no
+
+Do you want to continue?
+yes
+Think of a noun...
+Is it an animal? Please answer
+yes
+Can it fly? Please answer
+no
+My guess is a bear
+Am i right?
+no
+I give up. What is it?
+a fish
+What can I ask to tell a fish from a bear?
+Can it swim?
+Is that answer to that question yes or no for a bear?
+no
+
+Do you want to continue?
+yes
+Think of a noun...
+Is it an animal? Please answer
+yes
+Can it fly? Please answer
+no
+Can it swim? Please answer
+no
+My guess is a bear
+Am i right?
+no
+I give up. What is it?
+a chk icken
+What can I ask to tell a chicken from a bear?
+Does it have two legs?
+Is that answer to that question yes or no for a bear?
+no
+
+Do you want to continue?
+no
+
+]0;ka-son@kason-Lenovo-IdeaPad-S300: ~/Documents/C++/QuestionTreeka-son@kason-Lenovo-IdeaPad-S300:~/Documents/C++/QuestionTree$ exit
+exit
+
+Script done on Sat 08 Jun 2013 11:25:57 PM CDT
